@@ -1,0 +1,6 @@
+{
+  "description": "",
+  "dependencies": {
+    "web3": "^4.4.0"
+  }
+}

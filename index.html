@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum Block Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ethereum Block Explorer</h1>
+    <div>
+        <input type="text" id="addressInput" placeholder="Ange Ethereum Adress">
+        <button id="getBalance">Visa Balans</button>
+        <button id="getBlocks">Visa Antal Block</button>
+    </div>
+    <div>
+        <p id="balance">Balans: </p>
+        <p id="totalBlocks">Totalt Antal Block: </p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.0/web3.min.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
