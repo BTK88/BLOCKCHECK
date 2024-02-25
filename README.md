@@ -21,7 +21,7 @@ BlockCheck Block Explorer is an Ethereum application that operates on the Sepoli
 ## Setup and Installation
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/yourgithubusername/BlockCheck-Block-Explorer.git
+   git clone https://github.com/BTK88/BLOCKCHECK
    ```
 2. **Navigate to the Project Directory:**
    ```
@@ -54,9 +54,6 @@ Contributions to the BlockCheck Block Explorer are welcome! Please refer to the 
 
 ## License
 This project is licensed under the [MIT License](LICENSE.md).
-
-## Screenshots
-![Screenshot of BlockCheck Block Explorer](./content/img/trans-eth-network.jpg "BlockCheck Block Explorer")
 
 ## Acknowledgments
 Special thanks to the Ethereum community and the creators of Web3.js and MetaMask for making decentralized applications more accessible.
