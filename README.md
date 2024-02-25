@@ -16,7 +16,7 @@ BlockCheck Block Explorer is an Ethereum application that operates on the Sepoli
 - :gem: **Ethereum:** Some Ethereum in your MetaMask wallet on the Sepolia testnet for transactions.
 - :microscope: **Sepolia Testnet:** Access to the Sepolia testnet.
 - :green_circle: **Node.js:** Required for running the development server and the build process.
-- :test_tube: **Vitest:** Used for Test-Driven Development (TDD) to ensure code quality.
+- :test_tube: **Jest:** Used for Test-Driven Development (TDD) to ensure code quality.
 
 ## Setup and Installation
 1. **Clone the Repository:**
