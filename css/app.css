@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1f1f1f;
+  color: #02d8bc;
+}
+
+
+.top-bar {
+  color: rgb(16, 48, 172);
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #361f04;
+  border-radius: 10px;
+}
+
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.form-control input[type='text'] {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin-bottom: 10px; 
+  border: 1px solid #377706;
+  border-radius: 5px;
+  background-color: #0c0235;
+  color: #ffffff;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  margin-bottom: 10px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #b3ff005e;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0fb300;
+}
+
+
+.balance {
+  margin-top: 10px;
+  color: #aaffaa;
+}
+
+
+#loginButton {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9900;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#loginButton:hover {
+  background-color: #fdc24c;
+}
+
+#transactionHistory {
+  margin-top: 20px; 
+}
+
+#transactionHistory h3 {
+  margin-bottom: 10px; 
+}
+
+#transactionList {
+  list-style-type: none;
+  padding: 0;
+  max-width: 100%; 
+  overflow-x: auto; 
+}
+
+#transactionList li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  font-size: 14px; 
+}
+
+#transactionList li:last-child {
+  border-bottom: none;
+}
+
+.bg {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(2, 144, 59) 0%,
+    rgb(25, 130, 74) 25%,
+    rgb(193, 108, 4) 51%,
+    #4f0b03 100%
+  );
+  -webkit-animation: AnimateBG 20s ease infinite;
+  animation: AnimateBG 20s ease infinite;
+  z-index: -1; 
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
