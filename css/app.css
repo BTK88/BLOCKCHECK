@@ -23,6 +23,13 @@ body {
   background-color: #074f6d; 
   border-radius: 10px;
   position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.container:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .form-control {
@@ -117,7 +124,7 @@ body {
     rgb(255, 170, 165) 40%,
     rgb(196, 148, 217) 60%, 
     rgb(109, 57, 139) 80%,
-    rgb(72, 202, 228) 100% /* Loop back to the first color */
+    rgb(72, 202, 228) 100% 
   );
   animation: AnimateBG 30s ease infinite;
   z-index: -1; 
