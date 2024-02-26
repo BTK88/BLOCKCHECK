@@ -14,7 +14,7 @@ body {
 
 
 .top-bar {
-  color: rgb(149, 172, 16);
+  color: rgb(137, 200, 21);
   padding: 10px;
   text-align: center;
 }
@@ -23,7 +23,7 @@ body {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #361f04;
+  background-color: #053c54;
   border-radius: 10px;
   position: relative;
 }
