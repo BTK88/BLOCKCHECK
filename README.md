@@ -1,5 +1,4 @@
 
-```markdown
 # BlockCheck Block Explorer
 
 ## Overview
