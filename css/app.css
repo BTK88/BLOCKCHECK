@@ -110,17 +110,23 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: 300% 300%;
+  background-size: 200% 200%;
   background-image: linear-gradient(
-    -45deg,
-    rgb(72, 202, 228) 0%,
-    rgb(255, 170, 165) 25%, 
-    rgb(196, 148, 217) 51%, 
-    rgb(109, 57, 139) 100% 
+    120deg,
+    rgb(72, 202, 228) 20%, 
+    rgb(255, 170, 165) 40%,
+    rgb(196, 148, 217) 60%, 
+    rgb(109, 57, 139) 80%,
+    rgb(72, 202, 228) 100% /* Loop back to the first color */
   );
-  -webkit-animation: AnimateBG 20s ease infinite;
-  animation: AnimateBG 20s ease infinite;
-  z-index: -1;
+  animation: AnimateBG 30s ease infinite;
+  z-index: -1; 
+}
+
+@keyframes AnimateBG {
+  0% { background-position: 100% 50%; }
+  50% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
 
 @-webkit-keyframes AnimateBG {
