@@ -1,20 +1,17 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
-  background-color: #1f1f1f;
-  color: #edf500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #2a2a2a; 
+  color: #e1e1e1; 
 }
 
-
 .top-bar {
-  color: rgb(137, 200, 21);
+  color: rgb(180, 225, 250);
   padding: 10px;
   text-align: center;
 }
@@ -23,84 +20,84 @@ body {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #053c54;
+  background-color: #074f6d; 
   border-radius: 10px;
   position: relative;
 }
-
 
 .form-control {
   margin-bottom: 15px;
 }
 
 .form-control input[type='text'] {
-  width: calc(100% - 20px); 
+  width: calc(100% - 20px);
   padding: 10px;
-  margin-bottom: 10px; 
-  border: 1px solid #377706;
+  margin-bottom: 10px;
+  border: 1px solid #5a7d89; 
   border-radius: 5px;
-  background-color: #0c0235;
-  color: #ffffff;
+  background-color: #1e3b4c; 
+  color: #ffffff; 
 }
-
 
 .btn {
   padding: 10px 20px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .btn-primary {
-  background-color: #b3ff005e;
+  background-color: #62a8ea; 
   color: white;
 }
 
 .btn-primary:hover {
-  background-color: #0fb300;
+  background-color: #5087c8; 
 }
-
 
 .balance {
   margin-top: 10px;
-  color: #aaffaa;
+  color: #cfd8dc; 
 }
 
-
 #loginButton {
-  padding: 10px 20px;
-  margin: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff9900;
+  padding: 20px 40px; 
+  font-size: 20px; 
+  background-color: #f5a623; 
   color: #ffffff;
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: inline-block; 
+  text-align: center;
 }
 
 #loginButton:hover {
-  background-color: #fdc24c;
+  background-color: #f7b048; 
 }
 
 #transactionHistory {
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 #transactionHistory h3 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+  color: #cfd8dc; 
 }
 
 #transactionList {
   list-style-type: none;
   padding: 0;
-  max-width: 100%; 
-  overflow-x: auto; 
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 #transactionList li {
   border-bottom: 1px solid #ddd;
   padding: 10px;
-  font-size: 14px; 
+  font-size: 14px;
+  color: #cfd8dc; 
 }
 
 #transactionList li:last-child {
@@ -108,7 +105,7 @@ body {
 }
 
 .bg {
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -116,14 +113,14 @@ body {
   background-size: 300% 300%;
   background-image: linear-gradient(
     -45deg,
-    rgb(2, 144, 59) 0%,
-    rgb(25, 130, 74) 25%,
-    rgb(193, 108, 4) 51%,
-    #4f0b03 100%
+    rgb(72, 202, 228) 0%,
+    rgb(255, 170, 165) 25%, 
+    rgb(196, 148, 217) 51%, 
+    rgb(109, 57, 139) 100% 
   );
   -webkit-animation: AnimateBG 20s ease infinite;
   animation: AnimateBG 20s ease infinite;
-  z-index: -1; 
+  z-index: -1;
 }
 
 @-webkit-keyframes AnimateBG {
