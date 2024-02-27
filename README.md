@@ -1,5 +1,4 @@
 
-```markdown
 # BlockCheck Block Explorer
 
 ## Overview
@@ -59,4 +58,3 @@ This project is licensed under the [MIT License](LICENSE.md).
 Special thanks to the Ethereum community and the creators of Web3.js and MetaMask for making decentralized applications more accessible.
 ```
 
-This README provides a detailed guide for the "BlockCheck Block Explorer" project, covering an overview, features, setup and installation instructions, usage tips, testing procedures, contribution guidelines, licensing, and acknowledgments. Adjust the content to align with the project's specifics and requirements as needed.
