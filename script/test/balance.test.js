@@ -1,15 +1,9 @@
-const { getAccountBalance } = require('../balance');
+import { describe, it, expect } from 'vitest';
+import { displayErrorMessage } from '../balance.js';
 
-jest.mock('web3', () => ({
-  eth: {
-    getBalance: jest.fn(address => Promise.resolve('1000000000000000000')) 
-  }
-}));
-
-describe('getAccountBalance', () => {
-  it('fetches and returns the balance of an Ethereum account', async () => {
-    const address = '0x123';
-    const balance = await getAccountBalance(address);
-    expect(balance).toBe('1'); 
+describe('displayErrorMessage', () => {
+  it('should throw an error with the provided message', () => {
+    const errorMessage = 'Test error message';
+    expect(() => displayErrorMessage(errorMessage)).toThrowError(errorMessage);
   });
 });

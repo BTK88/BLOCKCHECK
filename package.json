@@ -1,7 +1,7 @@
 {
   "name": "BLOCKCHECK",
   "version": "1.0.0",
-  "description": "",
+  "description": "Block Explorer",
   "main": "./script/app.js",
   "scripts": {
     "test": "vitest"
